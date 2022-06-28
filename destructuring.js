@@ -4,9 +4,26 @@
  */
 
 // Destructuring arrays
+let ages = [30, 26, 27];
+//let john = ages[0];
+//let mary = ages[1];
+//let joe = ages[2];
+let [john, mary, joe] = ages;
+console.log(john, mary, joe);
 
 // Destructuring objects
+let jobs = {
+    mike: "designer",
+    jill: "developer",
+    alicia: "accountant",
+}
+let { mike, jill, alicia } = jobs;
+console.log(mike, jill, alicia);
+console.log(johnNative, JohnSecondary);
 
 // Destructuring subsets
+let [, , maryNative, marySecondary] = languages;
+console.log(maryNative, marySecondary);
+
 
 // Using rest parameter syntax
